@@ -1,0 +1,208 @@
+---
+title: "Genetic Network - Data Processing"
+output: html_document
+date: "2023-11-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(igraph)
+```
+
+## Import Data
+
+```{r}
+data <- read.table(file = 'processed_data/curated_gene_disease_associations_autism_grouped.csv',
+                 sep = '\t',
+                 header = TRUE,
+                 quote = "\"")
+```
+
+
+# Data Clearning
+
+## Joining data to create edges
+```{r}
+df_temp <- data[c("geneId", "diseaseId")] %>%
+  distinct()
+
+shared_genes <- df_temp %>%
+  inner_join(df_temp, by = "geneId") %>%
+  # Filter out when when rows where two disorders are the same
+  filter(diseaseId.x != diseaseId.y) %>%
+  # Filter out duplicate rows where
+  # diseaseId.x and diseaseId.y in row1 is reverse in row2
+  filter(diseaseId.x < diseaseId.y)
+```
+The warning message regarding the many-to-many relationship is letting you know that this type of join can result in a larger than expected number of rows because multiple matches are found for the join condition. If this is the expected behavior for your analysis, you can proceed with the understanding that the resulting dataframe will be larger and contain all possible combinations of matched rows.
+
+
+```{r}
+# Inspect
+shared_genes[shared_genes$geneId == 1, ]
+```
+
+### Calculate number of shared genes per edge
+```{r}
+# count shared genes per disorder
+shared_genes <- shared_genes %>%
+  group_by(diseaseId.x, diseaseId.y) %>%
+  summarise(n_shared_genes = n(),
+            .groups = "drop")
+```
+
+```{r}
+head(shared_genes)
+```
+
+## Calculate p-value of edges based on Hypergeometric Distribution
+
+### Set up functions for calculating p-values
+```{r}
+pvalue_hyper <- function(q, m, n, k, lower.tail=FALSE){
+    # q size intersection
+    # m size of B
+    # n size of universe
+    # k size of A
+    if (lower.tail == FALSE){
+        phyper(q, m, n, k, lower.tail = FALSE)+ dhyper(q, m, n, k) 
+    } else{
+        phyper(q, m, n, k)
+    }
+}
+```
+
+```{r}
+pvalue_hyper.0 <- function(A, B, num_tot, lower.tail=FALSE){
+
+    setA <- unique(A)
+    setB <- unique(B)
+    nA <- length(setA)
+    nB <- length(setB)
+    AB <- intersect(setA,setB)
+    nAB <- length(AB)
+    
+    return(pvalue_hyper(nAB, nB, num_tot - nB, nA, lower.tail = lower.tail))
+
+}
+```
+
+### Calculate p-value
+
+#### Calculate total number of genes for each disorder
+```{r}
+disease_genes <- data %>%
+  select(geneId, diseaseId) %>%
+  distinct() %>%
+  group_by(diseaseId) %>%
+  summarise(n_genes = n(), 
+            .groups = "drop")
+
+head(disease_genes)
+
+shared_genes <- shared_genes %>%
+  inner_join(disease_genes, by = c("diseaseId.x" = "diseaseId")) %>%
+  inner_join(disease_genes, by = c("diseaseId.y" = "diseaseId"))
+
+head(shared_genes)
+```
+
+#### Calculate p values for each pair
+
+```{r}
+n_comparisons <- nrow(shared_genes)
+n_total_genes <- length(unique(data$geneId))
+
+shared_genes_p <- shared_genes %>% 
+  mutate(n_total_genes = n_total_genes,
+         p = pvalue_hyper(n_shared_genes, n_genes.y, n_total_genes, n_genes.x))
+```
+
+```{r}
+head(shared_genes_p)
+summary(shared_genes_p$p)
+```
+
+
+#### Calculate -log10(p-value)
+
+Set p with value 0 to smallest number possible
+```{r}
+shared_genes_p[shared_genes_p$p == 0, "p"] = 0.1^(323.6)
+```
+
+Calculate -log10(p)
+```{r}
+shared_genes_p <- shared_genes_p %>% 
+  mutate(p_bonferroni = p*n_comparisons, 
+         p_log = -log10(p),
+         p_bonferroni_log = -log10(p))
+```
+
+Inspect
+```{r}
+summary(shared_genes_p$p_log)
+hist(shared_genes_p$p_log)
+```
+
+
+Number of significant disorder pairs based on p < .001 and proportion of significant pairs
+```{r}
+summary(shared_genes_p$p_log)
+# Number of significant disorder pairs based on p < .001
+sum(shared_genes_p$p_log > 2)
+# proportion of significant pairs out of all pairs
+sum(shared_genes_p$p_log > 2) / n_comparisons
+```
+
+# Export raw edges and nodes
+
+## Export raw nodes
+Select relevant rows
+```{r}
+diseases <- data[c("diseaseId", "diseaseName", "diseaseType", "diseaseClass", "diseaseSemanticType", "autism_subtype_broad")] %>%
+  distinct()
+```
+
+Add col: n_genes per disease
+```{r}
+diseases <- diseases %>%
+  inner_join(disease_genes, by="diseaseId")
+head(diseases)
+```
+Add col: is_autism
+
+```{r}
+diseases <- diseases %>%
+  mutate(is_autism = ifelse(autism_subtype_broad == "Not Autism", FALSE, TRUE))
+```
+
+
+Export raw nodes
+```{r}
+write.csv(diseases, "processed_data/nodes_diseases_AutismGrouped.csv", row.names=FALSE)
+```
+
+## Export edges
+```{r}
+shared_genes_p_new <- shared_genes_p %>%
+  select(-p_bonferroni, -p_bonferroni_log)
+```
+
+Rename columns
+```{r}
+colnames(shared_genes_p_new)[colnames(shared_genes_p_new) == "diseaseId.x"] = "diseaseId_x"
+colnames(shared_genes_p_new)[colnames(shared_genes_p_new) == "diseaseId.y"] = "diseaseId_y"
+colnames(shared_genes_p_new)[colnames(shared_genes_p_new) == "n_genes.x"] = "n_genes_x"
+colnames(shared_genes_p_new)[colnames(shared_genes_p_new) == "n_genes.y"] = "n_genes_y"
+```
+
+
+```{r}
+write.csv(shared_genes_p_new, "processed_data/edges_shared_genes_AutismGrouped.csv", row.names=FALSE)
+```
+

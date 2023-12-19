@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d12" for="edge" attr.name="p_log" attr.type="double" />
+  <key id="d11" for="edge" attr.name="p" attr.type="double" />
+  <key id="d10" for="edge" attr.name="n_total_genes" attr.type="long" />
+  <key id="d9" for="edge" attr.name="n_genes_y" attr.type="long" />
+  <key id="d8" for="edge" attr.name="n_genes_x" attr.type="long" />
+  <key id="d7" for="edge" attr.name="n_shared_genes" attr.type="long" />
+  <key id="d6" for="node" attr.name="is_autism" attr.type="boolean" />
+  <key id="d5" for="node" attr.name="n_genes" attr.type="long" />
+  <key id="d4" for="node" attr.name="autism_subtype_broad" attr.type="string" />
+  <key id="d3" for="node" attr.name="diseaseSemanticType" attr.type="string" />
+  <key id="d2" for="node" attr.name="diseaseClass" attr.type="string" />
+  <key id="d1" for="node" attr.name="diseaseType" attr.type="string" />
+  <key id="d0" for="node" attr.name="diseaseName" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="A00">
+      <data key="d0">Autism Spectrum Disorder</data>
+      <data key="d1">disease</data>
+      <data key="d2">F03</data>
+      <data key="d3">Mental or Behavioral Dysfunction</data>
+      <data key="d4">Polygenic Autism</data>
+      <data key="d5">292</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A09">
+      <data key="d0">Hamartoma tumor Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C04;C16</data>
+      <data key="d3">Neoplastic Process</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">9</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A02">
+      <data key="d0">Fragile X Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C16;C23</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">3</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A16">
+      <data key="d0">Digeorge Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C05;C14;C15;C16;C19;C23</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">18</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A08">
+      <data key="d0">Neurofibromatosis</data>
+      <data key="d1">disease</data>
+      <data key="d2">C04;C09;C10;C16;C17;C23</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">32</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A14">
+      <data key="d0">Noonan Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C04;C05;C10;C14;C16;C17;C23</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">35</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A06">
+      <data key="d0">Timothy Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C05;C14;C16;C23;F03</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A10">
+      <data key="d0">Down Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C04;C09;C10;C11;C15;C16;C23;F01;F03</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">23</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A07">
+      <data key="d0">Smith-Lemli-Opitz Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C16;C18</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A15">
+      <data key="d0">William Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C14;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">10</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A01">
+      <data key="d0">Rett Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">9</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A05">
+      <data key="d0">Angelman Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">3</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A04">
+      <data key="d0">Tuberous Sclerosis Complex</data>
+      <data key="d1">disease</data>
+      <data key="d2">C04;C10;C12;C13;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">4</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A03">
+      <data key="d0">MECP2 duplication Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">1</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A12">
+      <data key="d0">Cornelia de Lange Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C10;C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">8</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A17">
+      <data key="d0">Macrocephaly/Autism Syndrome </data>
+      <data key="d1">disease</data>
+      <data key="d2">C05;C10;C16;C23;F03</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A11">
+      <data key="d0">Cohen Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C05;C10;C11;C16;C18;C23;F01;F03</data>
+      <data key="d3">Congenital Abnormality</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+    </node>
+    <node id="A13">
+      <data key="d0">Charge Syndrome</data>
+      <data key="d1">disease</data>
+      <data key="d2">C16</data>
+      <data key="d3">Disease or Syndrome</data>
+      <data key="d4">Syndromic Autism</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+    </node>
+    <edge source="A00" target="A01">
+      <data key="d7">3</data>
+      <data key="d8">292</data>
+      <data key="d9">9</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0021539087135218</data>
+      <data key="d12">2.66677270681977</data>
+    </edge>
+    <edge source="A00" target="A02">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">3</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0901871818510656</data>
+      <data key="d12">1.04485518359925</data>
+    </edge>
+    <edge source="A00" target="A03">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">1</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0310176333120884</data>
+      <data key="d12">1.50839134252216</data>
+    </edge>
+    <edge source="A00" target="A04">
+      <data key="d7">3</data>
+      <data key="d8">292</data>
+      <data key="d9">4</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0001153501816409</data>
+      <data key="d12">3.93798171726266</data>
+    </edge>
+    <edge source="A00" target="A05">
+      <data key="d7">2</data>
+      <data key="d8">292</data>
+      <data key="d9">3</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0028164266769299</data>
+      <data key="d12">2.55030155073761</data>
+    </edge>
+    <edge source="A00" target="A06">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">1</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0310176333120884</data>
+      <data key="d12">1.50839134252216</data>
+    </edge>
+    <edge source="A00" target="A07">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">1</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0310176333120884</data>
+      <data key="d12">1.50839134252216</data>
+    </edge>
+    <edge source="A00" target="A08">
+      <data key="d7">2</data>
+      <data key="d8">292</data>
+      <data key="d9">32</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.260187722241222</data>
+      <data key="d12">0.584713200813221</data>
+    </edge>
+    <edge source="A00" target="A09">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">9</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.246824827801752</data>
+      <data key="d12">0.607611157300961</data>
+    </edge>
+    <edge source="A00" target="A10">
+      <data key="d7">5</data>
+      <data key="d8">292</data>
+      <data key="d9">23</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0005832090213143</data>
+      <data key="d12">3.23417576679442</data>
+    </edge>
+    <edge source="A00" target="A14">
+      <data key="d7">3</data>
+      <data key="d8">292</data>
+      <data key="d9">35</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0926817243126778</data>
+      <data key="d12">1.0330058949024</data>
+    </edge>
+    <edge source="A00" target="A15">
+      <data key="d7">2</data>
+      <data key="d8">292</data>
+      <data key="d9">10</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0365399704940101</data>
+      <data key="d12">1.4372318076757</data>
+    </edge>
+    <edge source="A00" target="A16">
+      <data key="d7">2</data>
+      <data key="d8">292</data>
+      <data key="d9">18</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.105624695979207</data>
+      <data key="d12">0.976234528075319</data>
+    </edge>
+    <edge source="A00" target="A17">
+      <data key="d7">1</data>
+      <data key="d8">292</data>
+      <data key="d9">2</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.061069980744151</data>
+      <data key="d12">1.21417221694061</data>
+    </edge>
+    <edge source="A09" target="A17">
+      <data key="d7">1</data>
+      <data key="d8">9</data>
+      <data key="d9">2</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0019110304637752</data>
+      <data key="d12">2.7187323897927</data>
+    </edge>
+    <edge source="A08" target="A14">
+      <data key="d7">6</data>
+      <data key="d8">32</data>
+      <data key="d9">35</data>
+      <data key="d10">9413</data>
+      <data key="d11">1.3924662919999702e-09</data>
+      <data key="d12">8.85621530917082</data>
+    </edge>
+    <edge source="A14" target="A10">
+      <data key="d7">1</data>
+      <data key="d8">23</data>
+      <data key="d9">35</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0819111921263765</data>
+      <data key="d12">1.08665675334781</data>
+    </edge>
+    <edge source="A10" target="A12">
+      <data key="d7">1</data>
+      <data key="d8">23</data>
+      <data key="d9">8</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0193718984026884</data>
+      <data key="d12">1.71282781730811</data>
+    </edge>
+    <edge source="A01" target="A03">
+      <data key="d7">1</data>
+      <data key="d8">9</data>
+      <data key="d9">1</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0009560229445506</data>
+      <data key="d12">3.01953168453126</data>
+    </edge>
+    <edge source="A01" target="A05">
+      <data key="d7">1</data>
+      <data key="d8">9</data>
+      <data key="d9">3</data>
+      <data key="d10">9413</data>
+      <data key="d11">0.0028650237439181</data>
+      <data key="d12">2.54287177446102</data>
+    </edge>
+  </graph>
+</graphml>

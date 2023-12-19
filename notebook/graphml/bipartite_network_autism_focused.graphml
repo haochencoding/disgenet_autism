@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="btw_cents" attr.type="double" />
+  <key id="d3" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d2" for="node" attr.name="bipartite" attr.type="string" />
+  <key id="d1" for="node" attr.name="class" attr.type="string" />
+  <key id="d0" for="node" attr.name="name" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="A00">
+      <data key="d0">Autism Spectrum Disorder</data>
+      <data key="d1">Non-Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.6681922196796338</data>
+      <data key="d4">0.9311471738780537</data>
+      <data key="d5">292</data>
+    </node>
+    <node id="A09">
+      <data key="d0">Hamartoma tumor Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.020594965675057208</data>
+      <data key="d4">0.035815506056725385</data>
+      <data key="d5">9</data>
+    </node>
+    <node id="A02">
+      <data key="d0">Fragile X Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.009016858060588247</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="A16">
+      <data key="d0">Digeorge Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.041189931350114416</data>
+      <data key="d4">0.0709644574139777</data>
+      <data key="d5">18</data>
+    </node>
+    <node id="A08">
+      <data key="d0">Neurofibromatosis</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.07322654462242563</data>
+      <data key="d4">0.11976780803224621</data>
+      <data key="d5">32</data>
+    </node>
+    <node id="A14">
+      <data key="d0">Noonan Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.08009153318077804</data>
+      <data key="d4">0.13286079678654197</data>
+      <data key="d5">35</data>
+    </node>
+    <node id="A06">
+      <data key="d0">Timothy Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.002288329519450801</data>
+      <data key="d4">0.0</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="A10">
+      <data key="d0">Down Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.05263157894736842</data>
+      <data key="d4">0.11203979733937958</data>
+      <data key="d5">23</data>
+    </node>
+    <node id="A07">
+      <data key="d0">Smith-Lemli-Opitz Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.002288329519450801</data>
+      <data key="d4">0.0</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="A15">
+      <data key="d0">William Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.02288329519450801</data>
+      <data key="d4">0.035820754518925954</data>
+      <data key="d5">10</data>
+    </node>
+    <node id="A01">
+      <data key="d0">Rett Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.020594965675057208</data>
+      <data key="d4">0.02517827276607951</data>
+      <data key="d5">9</data>
+    </node>
+    <node id="A05">
+      <data key="d0">Angelman Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.0018128188440786667</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="A04">
+      <data key="d0">Tuberous Sclerosis Complex</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.009153318077803204</data>
+      <data key="d4">0.004529422879096424</data>
+      <data key="d5">4</data>
+    </node>
+    <node id="A03">
+      <data key="d0">MECP2 duplication Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.002288329519450801</data>
+      <data key="d4">0.0</data>
+      <data key="d5">1</data>
+    </node>
+    <node id="A12">
+      <data key="d0">Cornelia de Lange Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.018306636155606407</data>
+      <data key="d4">0.031375307035038734</data>
+      <data key="d5">8</data>
+    </node>
+    <node id="A17">
+      <data key="d0">Macrocephaly/Autism Syndrome </data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0045136774924946985</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="A11">
+      <data key="d0">Cohen Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">1.0496924401150464e-05</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="A13">
+      <data key="d0">Charge Syndrome</data>
+      <data key="d1">Syndromic Autism</data>
+      <data key="d2">disease</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">1.0496924401150464e-05</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="673">
+      <data key="d0">BRAF</data>
+      <data key="d1">Kinase</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0018658283123044943</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="775">
+      <data key="d0">CACNA1C</data>
+      <data key="d1">Ion channel</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0045136774924946985</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="796">
+      <data key="d0">CALCA</data>
+      <data key="d1">Signaling</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.01995045451682646</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="1312">
+      <data key="d0">COMT</data>
+      <data key="d1">Enzyme</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.036849453110238704</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="1717">
+      <data key="d0">DHCR7</data>
+      <data key="d1">Enzyme</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0045136774924946985</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="1742">
+      <data key="d0">DLG4</data>
+      <data key="d1">Receptor</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.019886423277979553</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="1959">
+      <data key="d0">EGR2</data>
+      <data key="d1">Nucleic acid binding</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.009684462452501486</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="2332">
+      <data key="d0">FMR1</data>
+      <data key="d1">Nucleic acid binding</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.013478050931077193</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="2562">
+      <data key="d0">GABRB3</data>
+      <data key="d1">Ion channel</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0030853959789781675</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="2969">
+      <data key="d0">GTF2I</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.019886423277979553</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="3265">
+      <data key="d0">HRAS</data>
+      <data key="d1">Enzyme modulator</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.03679854302689306</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="3458">
+      <data key="d0">IFNG</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0029881244795274898</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="4204">
+      <data key="d0">MECP2</data>
+      <data key="d1">Epigenetic regulator</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.014198139944996073</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="4524">
+      <data key="d0">MTHFR</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.01995045451682646</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="4763">
+      <data key="d0">NF1</data>
+      <data key="d1">Enzyme modulator</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.09248192779515554</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="4893">
+      <data key="d0">NRAS</data>
+      <data key="d1">Enzyme modulator</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.012035598569619103</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="4908">
+      <data key="d0">NTF3</data>
+      <data key="d1">Signaling</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.01995045451682646</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="5604">
+      <data key="d0">MAP2K1</data>
+      <data key="d1">Kinase</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0018658283123044943</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="5728">
+      <data key="d0">PTEN</data>
+      <data key="d1">Enzyme</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.04868473537253585</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="5781">
+      <data key="d0">PTPN11</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0018658283123044943</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="5885">
+      <data key="d0">RAD21</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.03552159217349317</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="5894">
+      <data key="d0">RAF1</data>
+      <data key="d1">Kinase</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0018658283123044943</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="6573">
+      <data key="d0">SLC19A1</data>
+      <data key="d1">Transporter</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.01995045451682646</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="6792">
+      <data key="d0">CDKL5</data>
+      <data key="d1">Kinase</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.00010846821881188813</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="7248">
+      <data key="d0">TSC1</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0029881244795274898</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="7249">
+      <data key="d0">TSC2</data>
+      <data key="d1">Enzyme modulator</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0029881244795274898</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="7337">
+      <data key="d0">UBE3A</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.0030853959789781675</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="7432">
+      <data key="d0">VIP</data>
+      <data key="d1">Signaling</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.01995045451682646</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="8216">
+      <data key="d0">LZTR1</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.006864988558352403</data>
+      <data key="d4">0.09248192779515554</data>
+      <data key="d5">3</data>
+    </node>
+    <node id="9568">
+      <data key="d0">GABBR2</data>
+      <data key="d1">G-protein coupled receptor</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.009684462452501486</data>
+      <data key="d5">2</data>
+    </node>
+    <node id="221037">
+      <data key="d0">JMJD1C</data>
+      <data key="d1">Unknonw</data>
+      <data key="d2">gene</data>
+      <data key="d3">0.004576659038901602</data>
+      <data key="d4">0.036849453110238704</data>
+      <data key="d5">2</data>
+    </node>
+    <edge source="A00" target="775" />
+    <edge source="A00" target="796" />
+    <edge source="A00" target="1312" />
+    <edge source="A00" target="1717" />
+    <edge source="A00" target="1742" />
+    <edge source="A00" target="1959" />
+    <edge source="A00" target="2332" />
+    <edge source="A00" target="2562" />
+    <edge source="A00" target="2969" />
+    <edge source="A00" target="3265" />
+    <edge source="A00" target="3458" />
+    <edge source="A00" target="4204" />
+    <edge source="A00" target="4524" />
+    <edge source="A00" target="4763" />
+    <edge source="A00" target="4908" />
+    <edge source="A00" target="5728" />
+    <edge source="A00" target="6573" />
+    <edge source="A00" target="7248" />
+    <edge source="A00" target="7249" />
+    <edge source="A00" target="7337" />
+    <edge source="A00" target="7432" />
+    <edge source="A00" target="8216" />
+    <edge source="A00" target="9568" />
+    <edge source="A00" target="221037" />
+    <edge source="A09" target="5728" />
+    <edge source="A02" target="2332" />
+    <edge source="A16" target="1312" />
+    <edge source="A16" target="221037" />
+    <edge source="A08" target="673" />
+    <edge source="A08" target="4763" />
+    <edge source="A08" target="5604" />
+    <edge source="A08" target="5781" />
+    <edge source="A08" target="5894" />
+    <edge source="A08" target="8216" />
+    <edge source="A14" target="673" />
+    <edge source="A14" target="3265" />
+    <edge source="A14" target="4763" />
+    <edge source="A14" target="4893" />
+    <edge source="A14" target="5604" />
+    <edge source="A14" target="5781" />
+    <edge source="A14" target="5894" />
+    <edge source="A14" target="8216" />
+    <edge source="A06" target="775" />
+    <edge source="A10" target="796" />
+    <edge source="A10" target="4524" />
+    <edge source="A10" target="4893" />
+    <edge source="A10" target="4908" />
+    <edge source="A10" target="5885" />
+    <edge source="A10" target="6573" />
+    <edge source="A10" target="7432" />
+    <edge source="A07" target="1717" />
+    <edge source="A15" target="1742" />
+    <edge source="A15" target="2969" />
+    <edge source="A01" target="1959" />
+    <edge source="A01" target="4204" />
+    <edge source="A01" target="6792" />
+    <edge source="A01" target="9568" />
+    <edge source="A05" target="2562" />
+    <edge source="A05" target="6792" />
+    <edge source="A05" target="7337" />
+    <edge source="A04" target="3458" />
+    <edge source="A04" target="7248" />
+    <edge source="A04" target="7249" />
+    <edge source="A03" target="4204" />
+    <edge source="A12" target="5885" />
+    <edge source="A17" target="5728" />
+  </graph>
+</graphml>

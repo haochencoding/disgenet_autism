@@ -1,0 +1,73 @@
+	diseaseId	diseaseName	autism_subtype	autism_subtype_broad
+0	C0004352	Autistic Disorder	Autism Spectrum Disorder	Non-Syndromic Autism
+1	C1510586	Autism Spectrum Disorders	Autism Spectrum Disorder	Non-Syndromic Autism
+2	C3275438	AUTISM, SUSCEPTIBILITY TO, X-LINKED 5	Autism Spectrum Disorder	Non-Syndromic Autism
+3	C3552491	AUTISM, SUSCEPTIBILITY TO, 14A	Autism Spectrum Disorder	Non-Syndromic Autism
+4	C1845540	AUTISM, X-LINKED, SUSCEPTIBILITY TO, 1 (finding)	Autism Spectrum Disorder	Non-Syndromic Autism
+5	C3550875	AUTISM, SUSCEPTIBILITY TO, X-LINKED 6	Autism Spectrum Disorder	Non-Syndromic Autism
+6	C3554373	AUTISM, SUSCEPTIBILITY TO, 18	Autism Spectrum Disorder	Non-Syndromic Autism
+7	C0236792	Asperger Syndrome	Autism Spectrum Disorder	Non-Syndromic Autism
+8	C1845341	ASPERGER SYNDROME, X-LINKED, SUSCEPTIBILITY TO, 1 (disorder)	Autism Spectrum Disorder	Non-Syndromic Autism
+9	C1845334	ASPERGER SYNDROME, X-LINKED, SUSCEPTIBILITY TO, 2 (finding)	Autism Spectrum Disorder	Non-Syndromic Autism
+10	C0008074	Child Development Disorders, Pervasive	Autism Spectrum Disorder	Non-Syndromic Autism
+11	C0524528	Pervasive Development Disorder	Autism Spectrum Disorder	Non-Syndromic Autism
+0	C0035372	Rett Syndrome	Rett Syndrome	Syndromic Autism
+1	C2748910	Rett Syndrome, Atypical	Rett Syndrome	Syndromic Autism
+2	C1839332	Rett Syndrome, Preserved Speech Variant	Rett Syndrome	Syndromic Autism
+3	C2677682	Rett Syndrome, Zappella Variant	Rett Syndrome	Syndromic Autism
+4	C4014821	PORETTI-BOLTSHAUSER SYNDROME	Rett Syndrome	Syndromic Autism
+5	C0016667	Fragile X Syndrome	Fragile X Syndrome	Syndromic Autism
+6	C1839780	FRAGILE X TREMOR/ATAXIA SYNDROME	Fragile X Syndrome	Syndromic Autism
+7	C1968556	ENCEPHALOPATHY, NEONATAL SEVERE, DUE TO MECP2 MUTATIONS	MECP2 duplication Syndrome	Syndromic Autism
+8	C0041341	Tuberous Sclerosis	Tuberous Sclerosis Complex	Syndromic Autism
+9	C0265319	Fibrous skin tumor of tuberous sclerosis	Tuberous Sclerosis Complex	Syndromic Autism
+10	C1860707	TUBEROUS SCLEROSIS 2 (disorder)	Tuberous Sclerosis Complex	Syndromic Autism
+11	C1838327	Polycystic kidneys, severe infantile with tuberous sclerosis	Tuberous Sclerosis Complex	Syndromic Autism
+12	C1854465	TUBEROUS SCLEROSIS 1 (disorder)	Tuberous Sclerosis Complex	Syndromic Autism
+13	C0162635	Angelman Syndrome	Angelman Syndrome	Syndromic Autism
+14	C1832916	Timothy syndrome	Timothy Syndrome	Syndromic Autism
+15	C0175694	Smith-Lemli-Opitz Syndrome	Smith-Lemli-Opitz Syndrome	Syndromic Autism
+16	C0282643	Smith-Lemli-Opitz Syndrome, Type I	Smith-Lemli-Opitz Syndrome	Syndromic Autism
+17	C0282644	Smith-Lemli-Opitz Syndrome, Type II	Smith-Lemli-Opitz Syndrome	Syndromic Autism
+18	C0027831	Neurofibromatosis 1	Neurofibromatosis	Syndromic Autism
+19	C0917817	Neurofibromatosis 3	Neurofibromatosis	Syndromic Autism
+20	C1834235	NEUROFIBROMATOSIS, FAMILIAL SPINAL	Neurofibromatosis	Syndromic Autism
+21	C0027832	Neurofibromatosis 2	Neurofibromatosis	Syndromic Autism
+22	C2931480	Neurofibromatosis, Type 3, mixed central and peripheral	Neurofibromatosis	Syndromic Autism
+23	C1969623	NEUROFIBROMATOSIS, TYPE 1-LIKE SYNDROME	Neurofibromatosis	Syndromic Autism
+24	C0018553	Hamartoma Syndrome, Multiple	Hamartoma tumor Syndrome	Syndromic Autism
+25	C1959582	PTEN Hamartoma Tumor Syndrome	Hamartoma tumor Syndrome	Syndromic Autism
+26	C0013080	Down Syndrome	Down Syndrome	Syndromic Autism
+27	C0432416	Down Syndrome, Partial Trisomy 21	Down Syndrome	Syndromic Autism
+28	C1860789	Leukemia, Megakaryoblastic, of Down Syndrome	Down Syndrome	Syndromic Autism
+29	C1860788	Transient Myeloproliferative Disorder of Down Syndrome	Down Syndrome	Syndromic Autism
+30	C1832812	Cataracts, Congenital, with Sensorineural Deafness, Down Syndrome-Like Facial Appearance, Short Stature, and Mental Retardation	Down Syndrome	Syndromic Autism
+31	C4479654	COHEN-GIBSON SYNDROME	Cohen Syndrome	Syndromic Autism
+32	C0265223	Cohen syndrome	Cohen Syndrome	Syndromic Autism
+33	C0270972	Cornelia De Lange Syndrome	Cornelia de Lange Syndrome	Syndromic Autism
+34	C1853099	Cornelia de Lange Syndrome 3	Cornelia de Lange Syndrome	Syndromic Autism
+35	C3553517	CORNELIA DE LANGE SYNDROME 4	Cornelia de Lange Syndrome	Syndromic Autism
+36	C3550903	CORNELIA DE LANGE SYNDROME 5	Cornelia de Lange Syndrome	Syndromic Autism
+37	C0265354	CHARGE Syndrome	Charge Syndrome	Syndromic Autism
+38	C2936502	Familial CHARGE Syndrome	Charge Syndrome	Syndromic Autism
+39	C0028326	Noonan Syndrome	Noonan Syndrome	Syndromic Autism
+40	C3150970	NOONAN SYNDROME 7	Noonan Syndrome	Syndromic Autism
+41	C3150803	NOONAN SYNDROME-LIKE DISORDER WITH OR WITHOUT JUVENILE MYELOMONOCYTIC LEUKEMIA	Noonan Syndrome	Syndromic Autism
+42	C1860991	NOONAN SYNDROME 3	Noonan Syndrome	Syndromic Autism
+43	C0036069	Saldino-Noonan Syndrome	Noonan Syndrome	Syndromic Autism
+44	C2931482	Neurofibromatosis-Noonan syndrome	Noonan Syndrome	Syndromic Autism
+45	C2750732	Noonan Syndrome 6	Noonan Syndrome	Syndromic Autism
+46	C4479577	NOONAN SYNDROME-LIKE DISORDER WITH LOOSE ANAGEN HAIR 2	Noonan Syndrome	Syndromic Autism
+47	C1969057	Noonan Syndrome 5	Noonan Syndrome	Syndromic Autism
+48	C3809233	NOONAN SYNDROME 8	Noonan Syndrome	Syndromic Autism
+49	C1853120	Noonan Syndrome 4	Noonan Syndrome	Syndromic Autism
+50	C4225282	NOONAN SYNDROME 9	Noonan Syndrome	Syndromic Autism
+51	C1843181	Noonan syndrome-like disorder with loose anagen hair	Noonan Syndrome	Syndromic Autism
+52	C3501846	Noonan-Like Syndrome With Loose Anagen Hair	Noonan Syndrome	Syndromic Autism
+53	C4478716	NOONAN SYNDROME-LIKE DISORDER WITH LOOSE ANAGEN HAIR 1	Noonan Syndrome	Syndromic Autism
+54	C4225280	NOONAN SYNDROME 10	Noonan Syndrome	Syndromic Autism
+55	C0175702	Williams Syndrome	William Syndrome	Syndromic Autism
+56	C0012236	DiGeorge Syndrome	Digeorge Syndrome	Syndromic Autism
+57	C2936346	22q11 Deletion Syndrome	Digeorge Syndrome	Syndromic Autism
+58	C2678480	Chromosome 22q11.2 Deletion Syndrome, Distal	Digeorge Syndrome	Syndromic Autism
+59	C1854416	MACROCEPHALY/AUTISM SYNDROME	Macrocephaly/Autism Syndrome 	Syndromic Autism

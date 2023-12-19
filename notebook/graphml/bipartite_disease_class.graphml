@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="name" attr.type="string"/>
+<key id="d0" for="node" attr.name="bipartite" attr.type="string"/>
+<graph edgedefault="undirected"><node id="C04">
+  <data key="d0">disease_class</data>
+  <data key="d1">neoplasms</data>
+</node>
+<node id="C05">
+  <data key="d0">disease_class</data>
+  <data key="d1">musculoskeletal diseases</data>
+</node>
+<node id="C09">
+  <data key="d0">disease_class</data>
+  <data key="d1">otorhinolaryngologic diseases</data>
+</node>
+<node id="C10">
+  <data key="d0">disease_class</data>
+  <data key="d1">nervous system diseases</data>
+</node>
+<node id="C11">
+  <data key="d0">disease_class</data>
+  <data key="d1">eye diseases</data>
+</node>
+<node id="C12">
+  <data key="d0">disease_class</data>
+  <data key="d1">urologic and male genital diseases</data>
+</node>
+<node id="C13">
+  <data key="d0">disease_class</data>
+  <data key="d1">female genital diseases and pregnancy complications</data>
+</node>
+<node id="C14">
+  <data key="d0">disease_class</data>
+  <data key="d1">cardiovascular diseases</data>
+</node>
+<node id="C15">
+  <data key="d0">disease_class</data>
+  <data key="d1">hemic and lymphatic diseases</data>
+</node>
+<node id="C16">
+  <data key="d0">disease_class</data>
+  <data key="d1">congenital, hereditary, and neonatal diseases and abnormalities</data>
+</node>
+<node id="C17">
+  <data key="d0">disease_class</data>
+  <data key="d1">skin and connective tissue diseases</data>
+</node>
+<node id="C18">
+  <data key="d0">disease_class</data>
+  <data key="d1">nutritional and metabolic diseases</data>
+</node>
+<node id="C19">
+  <data key="d0">disease_class</data>
+  <data key="d1">endocrine system diseases</data>
+</node>
+<node id="C23">
+  <data key="d0">disease_class</data>
+  <data key="d1">pathological conditions, signs and symptoms</data>
+</node>
+<node id="F01">
+  <data key="d0">disease_class</data>
+  <data key="d1">behavior and behavior mechanisms</data>
+</node>
+<node id="F03">
+  <data key="d0">disease_class</data>
+  <data key="d1">mental disorders</data>
+</node>
+<node id="A00">
+  <data key="d0">autism</data>
+  <data key="d1">Autism Spectrum Disorder</data>
+</node>
+<node id="A09">
+  <data key="d0">autism</data>
+  <data key="d1">Hamartoma tumor Syndrome</data>
+</node>
+<node id="A02">
+  <data key="d0">autism</data>
+  <data key="d1">Fragile X Syndrome</data>
+</node>
+<node id="A16">
+  <data key="d0">autism</data>
+  <data key="d1">Digeorge Syndrome</data>
+</node>
+<node id="A08">
+  <data key="d0">autism</data>
+  <data key="d1">Neurofibromatosis</data>
+</node>
+<node id="A14">
+  <data key="d0">autism</data>
+  <data key="d1">Noonan Syndrome</data>
+</node>
+<node id="A06">
+  <data key="d0">autism</data>
+  <data key="d1">Timothy Syndrome</data>
+</node>
+<node id="A10">
+  <data key="d0">autism</data>
+  <data key="d1">Down Syndrome</data>
+</node>
+<node id="A07">
+  <data key="d0">autism</data>
+  <data key="d1">Smith-Lemli-Opitz Syndrome</data>
+</node>
+<node id="A15">
+  <data key="d0">autism</data>
+  <data key="d1">William Syndrome</data>
+</node>
+<node id="A01">
+  <data key="d0">autism</data>
+  <data key="d1">Rett Syndrome</data>
+</node>
+<node id="A05">
+  <data key="d0">autism</data>
+  <data key="d1">Angelman Syndrome</data>
+</node>
+<node id="A04">
+  <data key="d0">autism</data>
+  <data key="d1">Tuberous Sclerosis Complex</data>
+</node>
+<node id="A03">
+  <data key="d0">autism</data>
+  <data key="d1">MECP2 duplication Syndrome</data>
+</node>
+<node id="A12">
+  <data key="d0">autism</data>
+  <data key="d1">Cornelia de Lange Syndrome</data>
+</node>
+<node id="A17">
+  <data key="d0">autism</data>
+  <data key="d1">Macrocephaly/Autism Syndrome </data>
+</node>
+<node id="A11">
+  <data key="d0">autism</data>
+  <data key="d1">Cohen Syndrome</data>
+</node>
+<node id="A13">
+  <data key="d0">autism</data>
+  <data key="d1">Charge Syndrome</data>
+</node>
+<edge source="C04" target="A09"/>
+<edge source="C04" target="A08"/>
+<edge source="C04" target="A14"/>
+<edge source="C04" target="A10"/>
+<edge source="C04" target="A04"/>
+<edge source="C05" target="A16"/>
+<edge source="C05" target="A14"/>
+<edge source="C05" target="A06"/>
+<edge source="C05" target="A17"/>
+<edge source="C05" target="A11"/>
+<edge source="C09" target="A08"/>
+<edge source="C09" target="A10"/>
+<edge source="C10" target="A02"/>
+<edge source="C10" target="A08"/>
+<edge source="C10" target="A14"/>
+<edge source="C10" target="A10"/>
+<edge source="C10" target="A15"/>
+<edge source="C10" target="A01"/>
+<edge source="C10" target="A05"/>
+<edge source="C10" target="A04"/>
+<edge source="C10" target="A03"/>
+<edge source="C10" target="A12"/>
+<edge source="C10" target="A17"/>
+<edge source="C10" target="A11"/>
+<edge source="C11" target="A10"/>
+<edge source="C11" target="A11"/>
+<edge source="C12" target="A04"/>
+<edge source="C13" target="A04"/>
+<edge source="C14" target="A16"/>
+<edge source="C14" target="A14"/>
+<edge source="C14" target="A06"/>
+<edge source="C14" target="A15"/>
+<edge source="C15" target="A16"/>
+<edge source="C15" target="A10"/>
+<edge source="C16" target="A09"/>
+<edge source="C16" target="A02"/>
+<edge source="C16" target="A16"/>
+<edge source="C16" target="A08"/>
+<edge source="C16" target="A14"/>
+<edge source="C16" target="A06"/>
+<edge source="C16" target="A10"/>
+<edge source="C16" target="A07"/>
+<edge source="C16" target="A15"/>
+<edge source="C16" target="A01"/>
+<edge source="C16" target="A05"/>
+<edge source="C16" target="A04"/>
+<edge source="C16" target="A03"/>
+<edge source="C16" target="A12"/>
+<edge source="C16" target="A17"/>
+<edge source="C16" target="A11"/>
+<edge source="C16" target="A13"/>
+<edge source="C17" target="A08"/>
+<edge source="C17" target="A14"/>
+<edge source="C18" target="A07"/>
+<edge source="C18" target="A11"/>
+<edge source="C19" target="A16"/>
+<edge source="C23" target="A02"/>
+<edge source="C23" target="A16"/>
+<edge source="C23" target="A08"/>
+<edge source="C23" target="A14"/>
+<edge source="C23" target="A06"/>
+<edge source="C23" target="A10"/>
+<edge source="C23" target="A17"/>
+<edge source="C23" target="A11"/>
+<edge source="F01" target="A10"/>
+<edge source="F01" target="A11"/>
+<edge source="F03" target="A00"/>
+<edge source="F03" target="A06"/>
+<edge source="F03" target="A10"/>
+<edge source="F03" target="A17"/>
+<edge source="F03" target="A11"/>
+</graph></graphml>
